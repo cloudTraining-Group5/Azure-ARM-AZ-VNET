@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": {
+      "value": "Put the NAME of your VNET here "
+    },
+    "resourceGroup": {
+      "value": "Put the name of your VNET RESOURCE GROUP here"
+    },
+    "location": {
+      "value": "Put the LOCATION you want your VNET here (e.g. \"East US\")"
+    },
+    "addressPrefix": {
+      "value": "Put the ADDRESS SPACE you want for your VNET here (e.g. 10.X.X.X/X)"
+    },
+    "subnet1Name": {
+      "value": "Put the NAME of your SUBNET here (e.g. \"Devel-Web\")"
+    },
+    "subnet1AddressPrefix": {
+      "value": "Put the ADDRESS SPACE you want for your VNET here (e.g. 10.X.X.X/X)"
+    },
+    "subnet2Name": {
+      "value": "Put the NAME of your SUBNET here (e.g. \"Devel-db\")"
+    },
+    "subnet2AddressPrefix": {
+      "value": "(e.g. 10.X.X.X/X)"
+    },
+    "enableDdosProtection": {
+      "value": true
+    }
+  }
+}
